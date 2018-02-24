@@ -6,7 +6,7 @@ MAINTAINER Jacob Alberty <jacob.alberty@foundigital.com>
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV PKGURL=https://dl.ubnt.com/unifi/5.6.18-8261dc5066/unifi_sysvinit_all.deb
+ENV PKGURL=https://dl.ubnt.com/unifi/5.7.19-84cd139873/unifi_sysvinit_all.deb
 
 # Need backports for openjdk-8
 RUN echo "deb http://deb.debian.org/debian/ jessie-backports main" > /etc/apt/sources.list.d/10backports.list \
